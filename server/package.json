@@ -15,6 +15,9 @@
      "prestart": "next build",
      "start": "next start -p ${PORT}",
   },
+   "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
   "author": "",
   "license": "ISC"
 }
