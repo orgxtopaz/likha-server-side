@@ -11,7 +11,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "startserver": "nodemon server.js",
+     "prestart": "next build",
+     "start": "next start -p ${PORT}",
   },
   "author": "",
   "license": "ISC"
