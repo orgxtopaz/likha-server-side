@@ -15,9 +15,9 @@
   },
   "scripts": {
       "prestart": "next build",
-  "start": "next start -p ${PORT}",
+  "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serverstart": "nodemon server.js"
+   
  
   },
 
