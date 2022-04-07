@@ -1,5 +1,6 @@
 
 const signUp = require('../controller/signUp_controller');
+const userVisit = require('../controller/visit_controller');
 
 
 const router = require('express').Router();
@@ -10,9 +11,8 @@ const router = require('express').Router();
 
 ////ALL OFFICIALS FUNCTIONALITIES
 router.post('/signUp',signUp); ///TIME IN  
-router.get('/', (req, res) => {
-  res.send('hello world')
-})
+router.post('/visit',userVisit); ///TIME IN  
+
 
 
 
